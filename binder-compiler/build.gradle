@@ -5,6 +5,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':binder-annotations')
     implementation 'com.squareup:javapoet:1.11.1'
+    implementation 'com.squareup:kotlinpoet:1.5.0'
+
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_7
